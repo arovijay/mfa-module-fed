@@ -37,7 +37,7 @@ module.exports = {
         
         // For hosts (please adjust)
         remotes: {
-            "remoteApp": "remoteApp@http://localhost:4100/remoteEntry.js",
+            "remoteApp": "remoteApp@https://mp-delta.vercel.app/remoteEntry.js",
         },
 
         shared: share({

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-alerts',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./alerts.component.css']
 })
 export class AlertsComponent {
+
+  constructor(private route: Router){
+    console.log('routing data', this.route?.getCurrentNavigation()?.extras?.state);
+  }
+
+  ngOnInit() {
+  }
 
 }

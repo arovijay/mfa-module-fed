@@ -1,0 +1,4 @@
+Nav { background: darkblue;
+    color: white;
+    padding: 20px; }
+Nav a { color: #fff; text-decoration: none; padding: 0 10px; display: inline-block; }

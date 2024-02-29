@@ -1,7 +1,8 @@
 
 <nav>
-  <a href="javascript:void(0)" routerLink="alerts">BAT - alerts</a>
-  <a href="javascript:void(0)" routerLink="mpApp">MP - modelportfolio</a>
+  <a href="javascript:void(0)" (click)="navToAlerts()">BAT - Alerts</a> |
+  <a href="javascript:void(0)" routerLink="portfolio">BAT - Portfolio</a> |
+  <a href="javascript:void(0)" (click)="navToMp()">MP - Modelportfolio</a>
 </nav>
 
 <router-outlet></router-outlet>
